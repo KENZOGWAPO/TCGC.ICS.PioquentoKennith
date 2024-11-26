@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="browsertab-removebg-preview.png">
+    <link rel="stylesheet" href="Glassmorphism_form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Pioquento Website</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Log In</h1>
+        <form action="">
+            <div class="input">
+                <i class="fa-solid fa-user"></i>
+                <input type="email" placeholder="Enter your username" id="username">
+            </div>
+
+            <div class="input">
+                <i class="fa-sharp fa-solid fa-lock"></i>
+                <input type="password" placeholder="Enter your password" id="password">
+            </div>
+
+            <button onclick="func()">Log In</button><br>
+            
+        </form>
+    </div>
+
+    <script>
+        function func()
+        {
+        var email = document.getElementById("username").value;
+        var pass = document.getElementById('password').value;
+        if(email == 'pioquento' && pass == '123456'){
+            alert("succcess full! ")
+            window.location.assign("websiteken.html")
+        }
+        else{
+            alert("Wrong entry invalid")
+        }
+        }
+    </script>
+    
+</body>
+</html>

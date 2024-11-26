@@ -1,0 +1,108 @@
+.peryens{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+    padding: 0px 65px;
+    background-image: url(3rd.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: cover;
+    background-attachment: fixed;
+    
+}
+
+.card12 {
+    width: 340px;
+    height: 254px;
+    background:red;
+    transition: all 0.4s;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 5px  rgba(0, 0, 0, 0.705);
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 7%;
+  }
+  
+  .card12:hover {
+    border-radius: 15px;
+    cursor: pointer;
+    transform: scale(1.2);
+    box-shadow: 0px 0px 10px 5px  rgba(0, 0, 0, 0.705);
+    background: red;
+  }
+  
+  .first-content {
+    height: 100%;
+    width: 100%;
+    transition: all 0.4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    border-radius: 15px;
+    margin: auto;
+  }
+  
+  .card12:hover .first-content {
+    height: 0px;
+    opacity: 0;
+  }
+  
+  .second-content {
+    width: 100%;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    transition: all 0.4s;
+    font-size: 0px;
+    transform: rotate(90deg) scale(-1);
+    margin: auto;
+
+  }
+  
+  .card12:hover .second-content {
+    opacity: 1;
+    height: 100%;
+    font-size: 1.8rem;
+    transform: rotate(0deg);
+    
+  }
+  
+  .oring {
+    
+    justify-content: space-between;
+    margin: auto;
+    align-content: space-between;
+    display: inline-flex;
+    
+  }
+
+.olala {
+    color: white;
+    margin-top: 5%;
+}
+
+.olala :hover{
+    color: red;
+}
+
+.mark1{
+    background-color: maroon;
+    border-radius: 30%;
+}
+
+.mark1 :hover{
+    color: red;
+}
+
+.spayt1 {
+    color:white;
+    padding: 2%;
+}
+
+.gwapings {
+    font-size: 13px;
+}
